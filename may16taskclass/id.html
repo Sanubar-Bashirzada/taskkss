@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box1">
+
+
+
+    </div>
+
+    <script>
+        const box1=document.querySelector(".box1")
+        console.log(window.location.hash);
+        console.log("https://northwind.vercel.app/api/categories/"+window.location.hash.slice(1))
+
+        fetch("https://northwind.vercel.app/api/categories/"+window.location.hash.slice(1))
+
+    .then((res) => res.json())
+    .then((data) => {
+        console.log(data);
+
+        const cardbox=document.createElement("cardbox");
+        box1.appendChild(cardbox);
+        cardbox.innerHTML=data.name
+        
+        // const cardboxw=document.createElement("cardbox");
+        // box1.appendChild(cardboxw);
+        // cardboxw.innerHTML=data.description
+        
+    })
+
+    
+
+    </script>
+</body>
+</html>
