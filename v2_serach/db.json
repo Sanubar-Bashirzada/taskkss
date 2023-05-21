@@ -1,0 +1,11 @@
+
+
+{
+    "posts":  ["Apple","Apricots","Avocado","Basnana","Blackberries","Blueberries","Cherries","Coconut",
+    "Cranberries","Durian","Elderberries","Grapefruit","Grapes","Guava","Honeydew","Jackfruit",
+    "Longan","Loquat","Mango","Orange","Papaya","Pear","Pineapple","Strawberries","Watermelon"],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

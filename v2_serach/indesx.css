@@ -1,0 +1,32 @@
+/* (A) SEARCH BOX */
+#the-filter {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+   
+  /* (B) LIST */
+  #the-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #the-list li {
+    padding: 10px;
+    border-bottom: 2px solid #ffe9e9;
+    /* animation-name: example;
+  animation-duration: 600ms;
+  animation-delay: 10s; 
+  animation-iteration-count: 2; */
+  }
+  #the-list li:hover {
+    transition: 400ms;
+    /* transform: translate(20px); */
+    
+    background: #8a4d4d; }
+  
+  #the-list li.hide { display: none; }
+  /* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
