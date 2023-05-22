@@ -8,6 +8,8 @@ function addbox(textContent, linkContent) {
     link.href = "id.html#" + linkContent;
     link.innerHTML = "a" + linkContent;
 
+ 
+
     card1.style.cssText=`
     width:300px;
     height:100px;
