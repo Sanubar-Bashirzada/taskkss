@@ -1,5 +1,5 @@
 .container{
-    max-width: 1400px;
+   
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,14 +10,151 @@
   
 }
 .container1{
-    max-width: 1400px;
+   
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color:rgb(255,255,255);
-   
   
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(255,255,255);
+
+    .celine{
+        position: absolute;
+        top: 150px;
+        left: 120px;
+
+        .celineOld{
+            font-size: 40px;
+            color: black;
+        }
+        .celineNeeds{
+            font-size: 40px;
+            color: black;
+        }
+        .celineLorem{
+            font-size: 20px;
+            color: black;
+        }
+        .celineBtn{
+            background-color: #BC5148;
+            width: 165px;
+            height: 50px;
+            color: white;
+            font-size: 18px;
+            border: none;
+
+        }
+
+    }
+    .mark{
+        position: absolute;
+        background-color: #828282;
+        top: 150px;
+        left: 120px;
+
+        .markOld{
+            font-size: 40px;
+            color: white;
+        }
+        .markNeeds{
+            font-size: 40px;
+            color: white;
+        }
+        .markLorem{
+            font-size: 20px;
+            color: white;
+        }
+        .celineBtn{
+            background-color: #BC5148;
+            width: 165px;
+            height: 50px;
+            color: white;
+            font-size: 18px;
+            border: none;
+
+        }
+
+    }
+
+    .stepsection{
+        padding-top: 100px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        .familyImg{
+            width: 50%;
+        }
+        .according{
+            width: 50%;
+        }
+        .accordion-item{
+            margin-top: 10px;
+          
+        }
+    }
+
+}
+
+// caruselresponsiv
+
+@media screen and (max-width: 768px) {
+
+   
+
+    
+    .stepsection{
+        flex-direction: column;
+    }
+}
+
+.container3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(248,249,250); 
+
+    .waitingChildren{
+        padding-top: 60px;
+        width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    .waitp{
+        color: black;
+        font-size: 32px;
+    }
+    .loremp{
+        color:#868E96;
+        font-size: 20px;
+    }
+    .findBtn{
+
+        width: 250px;
+        height: 50px;
+        margin-top: 30px;
+        border: none;
+        font-size: 18px;
+        color: white;
+       background-color:  rgb(188,81,72);
+    }
+
+   
+     
+    }
 }
 
