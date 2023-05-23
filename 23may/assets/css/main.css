@@ -1,0 +1,174 @@
+.nav {
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+.nav ul {
+  display: flex;
+  gap: 15px;
+}
+.nav ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+.nav ul li .home {
+  color: #76abd4;
+}
+.nav ul li .service {
+  color: black;
+}
+.nav ul a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  gap: 15px;
+}
+ul li {
+  list-style-type: none;
+  font-size: 18px;
+}
+ul li .home {
+  color: #76abd4;
+}
+ul li .service {
+  color: black;
+}
+ul a {
+  text-decoration: none;
+}
+
+.resp {
+  margin-top: 50px;
+  top: 60px;
+  transition: 600ms;
+  z-index: 4;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 90px;
+  gap: 15px;
+}
+
+.bar {
+  display: none;
+}
+
+.responsive {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+  .nav .navMenu {
+    display: none;
+  }
+  .bar {
+    display: block;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+  }
+}
+.mycontainer {
+  max-width: 1400px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.mycontainer1 {
+  max-width: 1400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("	https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-bottom: 50px;
+}
+.parallax .offerDiv {
+  width: 400px;
+  height: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc6428;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 40px;
+}
+.parallax .triangle {
+  border-style: solid;
+  border-width: 22px 14px 0 14px;
+  border-color: #fc6428 transparent transparent transparent;
+  position: absolute;
+  top: 100%;
+}
+.parallax .paralaxflx {
+  display: flex;
+  flex-direction: column;
+}
+.parallax .list {
+  display: flex;
+  gap: 20px;
+}
+.parallax .starded {
+  width: 180px;
+  height: 40px;
+  border: none;
+  background-color: #fc6428;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+.parallax .imgflx {
+  display: flex;
+}
+.parallax .best {
+  font-size: 50px;
+}
+.parallax .create {
+  font-size: 36px;
+}
+.parallax .long {
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */

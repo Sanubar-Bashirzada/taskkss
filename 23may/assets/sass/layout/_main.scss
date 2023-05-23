@@ -1,0 +1,92 @@
+.mycontainer{
+    max-width: 1400px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.mycontainer1{
+    max-width: 1400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    
+}
+.parallax {
+   
+    
+    /* The image used */
+    background-image: url("	https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 50px;
+   
+
+    .offerDiv {
+        width: 400px;
+        height: 70px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fc6428;
+        font-size: 30px;
+        font-weight: 600;
+       
+        position: relative;
+        margin-bottom:40px ;
+    }
+    .triangle{
+        border-style: solid;
+    border-width: 22px 14px 0 14px;
+    border-color: #fc6428 transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    }
+    .paralaxflx{
+        display: flex;
+        flex-direction: column;
+    }
+    .list{
+        display: flex;
+        gap: 20px;
+    }
+    .starded{
+        width: 180px;
+        height: 40px;
+        border: none;
+        background-color: #fc6428;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+    }
+    .imgflx{
+        display: flex;
+    }
+    .best{
+        font-size: 50px;
+    }
+    .create{
+        font-size: 36px;
+    }
+    .long{
+        font-size: 16px;
+    }
+  }
