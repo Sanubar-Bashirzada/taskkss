@@ -53,6 +53,10 @@
 
 }
 
+.writejs{
+    top: 120px;
+    position: absolute;
+}
 .jsimg{
     width: 300px;
     height: 130px;
@@ -61,6 +65,8 @@
 
    display: flex;
    justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
 
 }
 
