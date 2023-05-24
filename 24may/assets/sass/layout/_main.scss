@@ -1,0 +1,66 @@
+.myContainer1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    .youCanVisit{
+    
+        width: 80%;
+        margin-top: 100px;
+
+        .foodsCards{
+            display: flex;
+           gap: 20px;
+        }
+        .youCanWrite{
+            font-size: 15px;
+            color: #b3b3b3;
+       letter-spacing: .2em;
+       margin-bottom: 30px;
+        }
+        .card1{
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            background-image: url("https://preview.colorlib.com/theme/villa/img/img_1.jpg");
+            background-position: top;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            .food{
+                font-size: 18px;
+            }
+
+            .card1Write{
+                margin-top: 180px;
+            }
+            .iconyazi{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                .pinkStar{
+                    color: #e61c5d;
+            
+                }
+                .numb1{
+                    color: #b3b3b3; 
+                }
+            }
+
+
+        }
+    }
+
+}
+
+.jsimg{
+    width: 300px;
+    height: 130px;
+}
+.icondivjs{
+
+   display: flex;
+   justify-content: space-between;
+
+}
+

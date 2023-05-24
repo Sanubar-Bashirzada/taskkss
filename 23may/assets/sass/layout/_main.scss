@@ -5,16 +5,14 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 2;
 }
 .mycontainer1{
     max-width: 1400px;
     width: 100%;
     justify-content: center;
     align-items: center;
-
-    
-
-    
+ 
 }
 .parallax {
    
@@ -49,7 +47,6 @@
         background-color: #fc6428;
         font-size: 30px;
         font-weight: 600;
-       
         position: relative;
         margin-bottom:40px ;
     }

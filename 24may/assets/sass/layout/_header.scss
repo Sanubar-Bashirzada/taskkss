@@ -1,0 +1,71 @@
+header{
+    background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+
+    
+   .villa{
+    font-size: 26px;
+    color: white;
+   }
+   .bar{
+    font-size: 32px;
+    color: white;
+   }
+    
+   
+}
+.navContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    padding-bottom: 230px;
+
+    .welcome{
+        font-size: 80px;
+        color: white;
+        font-weight: 600;
+        margin: 0;
+    }
+    .discover{
+        font-size: 32px;
+        color: white;
+       
+        margin-top: 0;
+    }
+    .exploreBtn{
+        width: 250px;
+        height: 40px;
+        color: white;
+        background-color: #e61c5d;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        letter-spacing: 2px;
+        margin-right: 10px;
+    }
+    .downBtn{
+        width: 180px;
+        height: 40px;
+        color: white;  
+        border: 1px solid white;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        background-color: transparent;
+        
+       
+    }
+    .navBtns{
+        margin-top: 20px;
+     
+    }
+}

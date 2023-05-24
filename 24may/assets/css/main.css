@@ -1,0 +1,119 @@
+header {
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+nav .villa {
+  font-size: 26px;
+  color: white;
+}
+nav .bar {
+  font-size: 32px;
+  color: white;
+}
+
+.navContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  padding-bottom: 230px;
+}
+.navContent .welcome {
+  font-size: 80px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+.navContent .discover {
+  font-size: 32px;
+  color: white;
+  margin-top: 0;
+}
+.navContent .exploreBtn {
+  width: 250px;
+  height: 40px;
+  color: white;
+  background-color: #e61c5d;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+.navContent .downBtn {
+  width: 180px;
+  height: 40px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  background-color: transparent;
+}
+.navContent .navBtns {
+  margin-top: 20px;
+}
+
+.myContainer1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.myContainer1 .youCanVisit {
+  width: 80%;
+  margin-top: 100px;
+}
+.myContainer1 .youCanVisit .foodsCards {
+  display: flex;
+  gap: 20px;
+}
+.myContainer1 .youCanVisit .youCanWrite {
+  font-size: 15px;
+  color: #b3b3b3;
+  letter-spacing: 0.2em;
+  margin-bottom: 30px;
+}
+.myContainer1 .youCanVisit .card1 {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/img_1.jpg");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.myContainer1 .youCanVisit .card1 .food {
+  font-size: 18px;
+}
+.myContainer1 .youCanVisit .card1 .card1Write {
+  margin-top: 180px;
+}
+.myContainer1 .youCanVisit .card1 .iconyazi {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.myContainer1 .youCanVisit .card1 .iconyazi .pinkStar {
+  color: #e61c5d;
+}
+.myContainer1 .youCanVisit .card1 .iconyazi .numb1 {
+  color: #b3b3b3;
+}
+
+.jsimg {
+  width: 300px;
+  height: 130px;
+}
+
+.icondivjs {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */

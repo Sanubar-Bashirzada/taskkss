@@ -96,6 +96,7 @@ ul a {
   justify-content: center;
   align-items: center;
   position: fixed;
+  z-index: 2;
 }
 
 .mycontainer1 {
